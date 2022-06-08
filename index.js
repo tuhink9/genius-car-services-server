@@ -97,6 +97,9 @@ app.get('/', (req, res)=>{
     res.send('server is ready');
 });
 
+app.get('/hero', (req, res)=>{
+    res.send('Hero meets heroku!');
+});
 app.get('/', (req, res)=>{
     res.send('server is running!');
 });
